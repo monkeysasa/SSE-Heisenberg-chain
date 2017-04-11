@@ -239,8 +239,8 @@
  write(10,*)' Cut-off L : ',mm
  write(10,*)' Number of bins completed : ',bins
  write(10,*)' ========================================='
- write(10,10)' -E/N       : ',wdata1(1),wdata2(1)
- write(10,10)'  magnet    : ',wdata1(7),wdata2(7)
+ write(10,10)'  E/N       : ',wdata1(1),wdata2(1)
+ write(10,10)'  magnet    : ',wdata1(2),wdata2(2)
  write(10,*)' ========================================='
  10 format(1x,a,2f14.8)
  close(10)
